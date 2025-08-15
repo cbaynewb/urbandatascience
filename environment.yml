@@ -1,0 +1,33 @@
+name: uds
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python    
+  - jupyterlab
+  - pip
+  - cenpy  
+  - numpy    
+  - pandas 
+  - geopandas
+  - contextily
+  - requests
+  - shapely
+  - bs4
+  - matplotlib
+  - seaborn
+  - PyPDF2
+  - pdfminer.six
+  - nltk
+  - gensim==4.3.3
+  - openpyxl
+  - pyLDAvis
+  - textblob
+  - scikit-learn
+  - pandasql
+  - sqlalchemy 
+  - praw
+  - wordcloud
+  - pip:
+    - pygris  # conda support forthcoming
+    - partridge
